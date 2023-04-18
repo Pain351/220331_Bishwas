@@ -1,0 +1,26 @@
+p{
+    color: blue;
+}
+#second{
+    color: red;
+}
+.third{
+    color: brown;
+}
+a:link{
+    color: #ff0000;
+}
+a:visited{
+    color:#00ff00
+}
+a:hover{
+    color: #ff00ff
+}
+#no{
+    color: red;
+    background-color: #043a34;
+}
+.main-div h1{
+    background-color: orange;
+    color: white;
+}
