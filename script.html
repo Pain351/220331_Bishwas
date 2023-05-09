@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+<style>
+    button{
+        margin: 100px;
+        padding: 100px;
+    }
+</style>
+<body>
+    <button type="button" onclick="myfunction()">Click here</button>
+    <script>
+        function myfunction(){
+            console.log ("Button Clicked");
+        }
+    </script>
+
+    <h1>This is heading</h1>
+    <p id=""></p>
+
+    <p id="demo"></p>
+
+    <script>
+        function myfunction(a,b) {
+            return a+b;
+        }
+        document.getElementById("demo").innerHTML = myfunction(12,8);
+    </script>
+</body>
+</html>
